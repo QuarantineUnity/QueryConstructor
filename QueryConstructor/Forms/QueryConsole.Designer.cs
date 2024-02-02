@@ -487,7 +487,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "QueryConsole";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "QueryConsole";
+            this.Text = "Query console";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.QueryConsole_FormClosed);
             this.Load += new System.EventHandler(this.QueryConsole_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
