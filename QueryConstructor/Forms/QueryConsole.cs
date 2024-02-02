@@ -516,7 +516,9 @@ namespace QueryConstructor
                     }
 
                     string queryString = selectString + fromString + joinString + whereString;
-                    MessageBox.Show(queryString);
+                    QueryString QueryStringForm = new QueryString();
+                    QueryStringForm.query_TextBox.Text = queryString;
+                    QueryStringForm.Show();
                 }
             }
         }

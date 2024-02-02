@@ -66,6 +66,12 @@
     <Compile Include="Forms\QueryConsole.Designer.cs">
       <DependentUpon>QueryConsole.cs</DependentUpon>
     </Compile>
+    <Compile Include="QueryString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryString.Designer.cs">
+      <DependentUpon>QueryString.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Forms\Authentication.resx">
       <DependentUpon>Authentication.cs</DependentUpon>
     </EmbeddedResource>
@@ -81,6 +87,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="QueryString.resx">
+      <DependentUpon>QueryString.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
