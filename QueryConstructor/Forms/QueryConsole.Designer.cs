@@ -150,7 +150,7 @@
             // conString_label
             // 
             this.conString_label.AutoSize = true;
-            this.conString_label.Location = new System.Drawing.Point(582, 123);
+            this.conString_label.Location = new System.Drawing.Point(597, 0);
             this.conString_label.Name = "conString_label";
             this.conString_label.Size = new System.Drawing.Size(35, 13);
             this.conString_label.TabIndex = 5;
@@ -160,7 +160,7 @@
             // InitialCatalog_label
             // 
             this.InitialCatalog_label.AutoSize = true;
-            this.InitialCatalog_label.Location = new System.Drawing.Point(582, 97);
+            this.InitialCatalog_label.Location = new System.Drawing.Point(597, 0);
             this.InitialCatalog_label.Name = "InitialCatalog_label";
             this.InitialCatalog_label.Size = new System.Drawing.Size(35, 13);
             this.InitialCatalog_label.TabIndex = 4;
@@ -170,7 +170,7 @@
             // Password_label
             // 
             this.Password_label.AutoSize = true;
-            this.Password_label.Location = new System.Drawing.Point(582, 69);
+            this.Password_label.Location = new System.Drawing.Point(598, 0);
             this.Password_label.Name = "Password_label";
             this.Password_label.Size = new System.Drawing.Size(35, 13);
             this.Password_label.TabIndex = 3;
@@ -180,7 +180,7 @@
             // Login_label
             // 
             this.Login_label.AutoSize = true;
-            this.Login_label.Location = new System.Drawing.Point(582, 38);
+            this.Login_label.Location = new System.Drawing.Point(597, 0);
             this.Login_label.Name = "Login_label";
             this.Login_label.Size = new System.Drawing.Size(35, 13);
             this.Login_label.TabIndex = 2;
@@ -190,7 +190,7 @@
             // Server_label
             // 
             this.Server_label.AutoSize = true;
-            this.Server_label.Location = new System.Drawing.Point(582, 13);
+            this.Server_label.Location = new System.Drawing.Point(598, 0);
             this.Server_label.Name = "Server_label";
             this.Server_label.Size = new System.Drawing.Size(35, 13);
             this.Server_label.TabIndex = 1;
@@ -216,9 +216,9 @@
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.TableName,
             this.ColumnName});
-            this.dataGridView1.Location = new System.Drawing.Point(495, 205);
+            this.dataGridView1.Location = new System.Drawing.Point(495, 560);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(253, 365);
+            this.dataGridView1.Size = new System.Drawing.Size(253, 10);
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.Visible = false;
             // 
